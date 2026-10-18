@@ -1,0 +1,85 @@
+/* Container styling */
+.main-container {
+    max-width: 600px; 
+    background: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin: 2rem auto; 
+    position: relative;
+}
+
+/* Title styling */
+.title {
+    font-size: 1.5rem; 
+    text-align: center; 
+    margin-bottom: 1.2rem; 
+}
+
+/* Details Group styling */
+.details-group {
+    margin-bottom: 15px; 
+}
+
+/* Detail Item styling */
+.detail-item {
+    margin-bottom: 10px; 
+}
+
+/* Label styling */
+label {
+    font-size: 1rem; 
+    margin-bottom: 5px; 
+    display: block; 
+}
+
+/* Span styling for displaying data */
+span {
+    font-size: 1rem; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    display: block; 
+    background-color: #f9f9f9;
+}
+
+/* Flash messages */
+.flash-messages {
+    margin-bottom: 20px;
+}
+
+.flash-message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.flash-message.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.flash-message.error {
+    background-color: #f2dede;
+    color: #a94442;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 15px;
+        margin: 1rem;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-container {
+        max-width: 95%;
+        margin: 0.5rem;
+    }
+
+    span {
+        font-size: 0.85rem; 
+    }
+}
